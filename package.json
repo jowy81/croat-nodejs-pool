@@ -1,6 +1,6 @@
 {
 	"name": "croat-nodejs-pool",
-	"version": "1.5.0",
+	"version": "2.0.1",
 	"license": "GPL-2.0",
 	"Original author": "Multiples",
 	"Maintained by": "CroatApps DevOps",
@@ -17,18 +17,18 @@
 		"cryptoforknote-util": "git://github.com/jowy81/node-cryptoforknote-util.git",
 		"cryptonight-hashing": "git://github.com/jowy81/node-cryptonight-hashing.git",
 		"dateformat": "4.5.1",
-		"domexception": "*",
+		"domexception": "<3.0.0",
 		"mailgun.js": "*",
 		"node-telegram-bot-api": "*",
 		"nodemailer": "^6.4.18",
 		"nodemailer-sendmail-transport": "*",
-		"redis": "*",
+		"redis": "^3.1.2",
 		"socket.io": "^3.1.1",
 		"time-ago": "*",
 		"turtlecoin-multi-hashing": "git+https://github.com/jowy81/node8-multi-hashing.git",
 		"utf-8-validate": "*"
 	},
 	"engines": {
-		"node": ">=8.11.3"
+		"node": ">=10.0.0"
 	}
 }
